@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header {
+  top:0;
+  padding: 17px;
+  background-color: rgb(87, 138, 226);
+}
+.github-logo {
+  color: white;
+}
+
+.search-box {
+  margin: 20px 50px 20px 50px;
+  border: 1px;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  /* height: 100px; */
+  text-align: center;
+  border-color: rgb(203, 211, 217);
+}
+
+.search-title {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+#input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: rgb(105, 138, 168);
+
+}
+
+#data-btn {
+  background-color: rgb(87, 138, 226);
+  color: white;
+  padding: 7px;
+  height: auto;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+}
+
+#container {
+  margin: 20px 50px 20px 50px;
+  padding: 30px;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(203, 211, 217);
+  border-radius: 10px;
+}
+
+#img {
+  width: 250px;
+}
+.image {
+  width: fit-content;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.infos {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: top;
+  width: 100vh;
+}
+.box-info {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.info {
+  /* display: inline-block; */
+  /* vertical-align: bottom; */
+  margin-top: 10px;
+}
+
+.box-profile-info {
+  color: white;
+  padding: 5px 5px;
+  margin: 3px;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  float: left;
+}
+.box-profile-info:nth-child(1) {
+  background-color: rgb(87, 138, 226);
+}
+.box-profile-info:nth-child(2) {
+  background-color: rgb(175, 178, 183);
+}
+.box-profile-info:nth-child(3) {
+  background-color: rgb(34, 156, 93);
+}
+.box-profile-info:nth-child(4) {
+  background-color: rgb(194, 120, 246);
+}
+.profile-info {
+  border: 1px;
+  border-color: rgb(203, 211, 217);
+  border-style: solid;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.ghchart-container {
+  margin: 20px 50px 20px 50px;
+  border: 1px;
+  border-color: rgb(203, 211, 217);
+  border-style: solid;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#ghchart {
+  height: 120px;
+}
+.repo-title {
+  margin-left: 50px;
+}
+.repos {
+  margin: 10px 50px 5px 50px;
+  border: 1px;
+  border-color: rgb(203, 211, 217);
+  border-style: solid;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+}
+.repo-detail {
+  display: flex;
+  flex:1;
+
+}
+
+.repo-name {
+  flex:1;
+  font-weight: 600;
+  color: rgb(87, 138, 226);
+}
+.repo-stars{
+  padding: 5px;
+  /* width: 50px; */
+  border-radius: 7px;
+  margin-right: 10px;
+  background-color: rgb(87, 138, 226);
+  color: white;
+}
+.repo-watchers{
+  padding: 5px;
+  /* width: 50px; */
+  border-radius: 7px;
+  margin-right: 10px;
+  background-color: rgb(175, 178, 183);
+  color: white;
+
+}
+.repo-forks {
+  padding: 5px;
+  /* width: 50px; */
+  border-radius: 7px;
+  margin-right: 10px;
+  background-color: rgb(34, 156, 93);
+  color: white;
+
+}
+.footer {
+  text-align: center;
+  justify-content: center;
+  background-color: lightgray;
+  height: 50px;
+  width: 100%;
+  bottom: 0px;
+  padding: 10px;
+  margin-top: 50px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Finder</title>
+  <link rel="stylesheet" href="./finder.css">
+  </link>
+  <script defer src="./finder.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-logo">
+      <h3 class="github-logo">GitHub Finder</h3>
+    </div>
+  </header>
+  <div class="search-box">
+    <p class="search-title">Search GitHub Users</p>
+    <input type="text" placeholder="Enter Username Here" id="input">
+    <button id="data-btn">Get Data</button>
+  </div>
+  <div class="container" id="container">
+    <div class="image">
+      <img src="" alt="image" id="img">
+    </div>
+    <div class="infos">
+      <div class="box-info">
+        <div class="box-profile-info">
+          <label>Public Repos: </label>
+          <span id="repo"></span>
+        </div>
+        <div class="box-profile-info">
+          <label>Public Gists: </label>
+          <span id="gist"></span>
+        </div>
+        <div class="box-profile-info">
+          <label>Followers: </label>
+          <span id="followers"></span>
+        </div>
+        <div class="box-profile-info">
+          <label>Following: </label>
+          <span id="following"></span>
+        </div>
+      </div>
+      <div class="info">
+        <div class="profile-info">
+          <label>company: </label>
+          <span id="name"></span>
+        </div>
+
+        <div class="profile-info">
+          <label>Portfolio: </label>
+          <span id="portfolio"></span>
+        </div>
+
+        <div class="profile-info">
+          <label>Location: </label>
+          <span id="location"></span>
+        </div>
+        <div class="profile-info">
+          <label>Member Since: </label>
+          <span id="created"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ghchart-container">
+    <img src="" alt="image" id="ghchart">
+  </div>
+  <div class="repo-title">
+    <h1>Latest Repos</h3>
+  </div>
+  <div>
+    <div id="repositoriesDiv" class="grid-container"></div>
+  </div>
+
+  <footer class="footer">GitHub Finder &copy;</footer>
+
+</body>
+
+</html>
